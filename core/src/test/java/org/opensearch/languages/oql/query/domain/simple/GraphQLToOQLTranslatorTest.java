@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.opensearch.graphql.Transformer;
 import org.opensearch.languages.oql.query.descriptor.QueryDescriptor;
 import org.opensearch.graphql.GraphQLEngineFactory;
-import org.opensearch.graphql.translation.GraphQLToOntologyTransformer;
+import org.opensearch.graphql.ontology.GraphQLToOntologyTransformer;
 import org.opensearch.languages.oql.graphql.GraphQLToOQLTransformer;
 import org.opensearch.languages.oql.query.Query;
 import org.opensearch.schema.SchemaError;

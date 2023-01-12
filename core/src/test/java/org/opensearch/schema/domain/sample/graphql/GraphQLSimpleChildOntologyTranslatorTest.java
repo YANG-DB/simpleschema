@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.opensearch.graphql.GraphQLEngineFactory;
-import org.opensearch.graphql.translation.GraphQLToOntologyTransformer;
+import org.opensearch.graphql.ontology.GraphQLToOntologyTransformer;
 import org.opensearch.schema.index.schema.BaseTypeElement;
 import org.opensearch.schema.index.schema.Entity;
 import org.opensearch.schema.index.schema.IndexProvider;

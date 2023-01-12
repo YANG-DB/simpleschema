@@ -1,0 +1,28 @@
+{
+  "id": "a1b2c3d4",
+  "name": "J.K. Rowling",
+  "born": "1965-11-30",
+  "age" : 58,
+  "books": [
+    {
+      "ISBN": "9781408855652",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "description": "The first novel in the Harry Potter series and Rowling's debut novel, it follows Harry Potter, a young wizard who discovers his magical heritage on his eleventh birthday, when he receives a letter of acceptance to Hogwarts School of Witchcraft and Wizardry. Harry makes close friends and a few enemies during his first year at the school and with the help of his friends, Ron Weasley and Hermione Granger, he faces an attempted comeback by the dark wizard Lord Voldemort, who killed Harry's parents, but failed to kill Harry when he was just 15 months old.",
+      "published": "1997-06-26",
+      "genre": ["Fantasy"],
+      "author": {
+        "id": "a1b2c3d4"
+      }
+    },
+    {
+      "ISBN": "9788869185182",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "description": " The plot follows Harry's second year at Hogwarts School of Witchcraft and Wizardry, during which a series of messages on the walls of the school's corridors warn that the \"Chamber of Secrets\" has been opened and that the \"heir of Slytherin\" would kill all pupils who do not come from all-magical families. These threats are found after attacks that leave residents of the school petrified. Throughout the year, Harry and his friends Ron and Hermione investigate the attacks.",
+      "published": "1998-02-07",
+      "genre": ["Fantasy"],
+      "author": {
+        "id": "a1b2c3d4"
+      }
+    }
+  ]
+}

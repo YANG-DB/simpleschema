@@ -12,7 +12,7 @@ import org.opensearch.common.xcontent.ToXContent;
 import org.opensearch.common.xcontent.XContentBuilder;
 import org.opensearch.common.xcontent.XContentType;
 import org.opensearch.graphql.GraphQLEngineFactory;
-import org.opensearch.graphql.translation.GraphQLToOntologyTransformer;
+import org.opensearch.graphql.ontology.GraphQLToOntologyTransformer;
 import org.opensearch.schema.index.schema.IndexProvider;
 import org.opensearch.schema.index.template.PutIndexTemplateRequestBuilder;
 import org.opensearch.schema.index.transform.IndexEntitiesMappingBuilder;

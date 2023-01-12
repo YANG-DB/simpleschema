@@ -1,0 +1,32 @@
+{
+  "id": "a1b2c3d4",
+  "name": "J.K. Rowling",
+  "born": "11-30-1965",
+  "age" : 58,
+  "books": [
+    {
+      "ISBN": "9781408855652",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "description": "The first novel in the Harry Potter series and Rowling's debut novel, it follows Harry Potter, a young wizard who discovers his magical heritage on his eleventh birthday, when he receives a letter of acceptance to Hogwarts School of Witchcraft and Wizardry. Harry makes close friends and a few enemies during his first year at the school and with the help of his friends, Ron Weasley and Hermione Granger, he faces an attempted comeback by the dark wizard Lord Voldemort, who killed Harry's parents, but failed to kill Harry when he was just 15 months old.",
+      "published": "1997-06-26",
+      "genre": ["Fantasy"],
+      "author": {
+        "id": "a1b2c3d4",
+        "name": "J.K. Rowling",
+        "born": "11-30-1965",
+        "age": 58,
+        "books": [
+          {
+            "ISBN": "9781408855652",
+            "title": "Harry Potter and the Philosopher's Stone",
+            "description": "The first novel in the Harry Potter series and Rowling's debut novel, it follows Harry Potter, a young wizard who discovers his magical heritage on his eleventh birthday, when he receives a letter of acceptance to Hogwarts School of Witchcraft and Wizardry. Harry makes close friends and a few enemies during his first year at the school and with the help of his friends, Ron Weasley and Hermione Granger, he faces an attempted comeback by the dark wizard Lord Voldemort, who killed Harry's parents, but failed to kill Harry when he was just 15 months old.",
+            "published": "1997-06-26",
+            "genre": [
+              "Fantasy"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

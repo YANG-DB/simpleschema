@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opensearch.org/schemas/author",
+  "additionalProperties": false,
+  "title": "SimpleSample",
+  "description": "An Author's book simple example",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "born",
+    "nationality"
+  ],
+  "properties": {
+    "id": {
+      "description": "The author's personal Id number",
+      "type": "string"
+    },
+    "name": {
+      "description": "The author's name",
+      "type": "string"
+    },
+    "born": {
+      "description": "The author's birth date",
+      "type": "string",
+      "format": "date"
+    },
+    "age": {
+      "description": "The author's age",
+      "type": "integer",
+      "exclusiveMinimum": 0
+    },
+    "died": {
+      "description": "The author's death date",
+      "type": "string",
+      "format": "date"
+    },
+    "nationality": {
+      "description": "The author's nationality",
+      "type": "string"
+    },
+    "books": {
+      "description": "Books written by the author",
+      "type": "array",
+      "items": {
+        "$ref": "/schemas/book"
+      }
+    }
+  },
+  "$defs": {
+    "book": {
+      "$id": "/schemas/book",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ISBN",
+        "title",
+        "description",
+        "published",
+        "author"
+      ],
+      "properties": {
+        "ISBN": {
+          "description": "The Book's Id number",
+          "type": "string"
+        },
+        "title": {
+          "description": "The book's title",
+          "type": "string"
+        },
+        "description": {
+          "description": "The book's description",
+          "type": "string"
+        },
+        "published": {
+          "description": "The book's publishing date",
+          "type": "string",
+          "format": "date"
+        },
+        "genre": {
+          "description": "The book's genre class",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "AdventureStories",
+              "Classics",
+              "Crime",
+              "FairyTales",
+              "Fantasy",
+              "HistoricalFiction",
+              "Horror",
+              "Humour"
+            ]
+          }
+        },
+        "author": {
+          "type": "object",
+          "description": "The author's reference",
+          "additionalProperties": false,
+          "required": [
+            "id"
+          ],
+          "properties": {
+            "id": {
+              "description": "The author's personal Id number",
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -5,15 +5,13 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.opensearch.graphql.GraphQLEngineFactory;
-import org.opensearch.graphql.translation.GraphQLToOntologyTransformer;
+import org.opensearch.graphql.ontology.GraphQLToOntologyTransformer;
 import org.opensearch.schema.index.schema.IndexProvider;
 import org.opensearch.schema.ontology.Accessor;
 import org.opensearch.schema.ontology.Ontology;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class IDValidationRuleTest {
     public static Ontology ontology;
